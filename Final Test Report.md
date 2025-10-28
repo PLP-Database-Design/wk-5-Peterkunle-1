@@ -31,9 +31,10 @@
 
 | Feature | Description | Risk Category |
 |---------|-------------|---------------|
-| Reset Game | Clears score and progress instantly | |
-| Leaderboard | Stores top 3 scores in localStorage | |
-| Bonus Round | Every 3 puzzles → doubles score | |
+| Reset Game | Clears score and progress instantly | Data Integrity, State Management |
+| Leaderboard | Stores top 3 scores in localStorage | Persistence, Boundary Conditions |
+| Bonus Round | Every 3 puzzles → doubles score | Logic, Arithmetic, Sequencing
+|
 
 ## Test Plan
 
@@ -138,9 +139,9 @@
 
 | ID | Issue Title | Severity | Risk ID | Status | GitHub Link |
 |----|-------------|----------|---------|--------|-------------|
-|001 |Scrambled word chatbox remains blank after reset. Disappears only when "new puzzle" is clicked | Medium | R1|open |https://github.com/PLP-Database-Design/wk-5-ngarama2025-1/issues/2#issue-3557771204|
-|002 | Hint button can be clicked twice before score updates|low |R4|fixed |https://github.com/PLP-Database-Design/wk-5-ngarama2025-1/issues/3#issue-3557789878 |
-|003 |Success message disappears too fast| low| R5| open| https://github.com/PLP-Database-Design/wk-5-ngarama2025-1/issues/4#issue-3557801540 |
+|001 |Scrambled word chatbox remains blank after reset. Disappears only when "new puzzle" is clicked | Medium | R1|open |https://github.com/PLP-Database-Design/wk-5-ngarama2025-1/issues/2#issue-3557771204 |
+|002 | Hint button can be clicked twice before score updates|low |R4|fixed | https://github.com/PLP-Database-Design/wk-5-ngarama2025-1/issues/3#issue-3557789878|
+|003 |Success message disappears too fast| low| R5| open| https://github.com/PLP-Database-Design/wk-5-ngarama2025-1/issues/4#issue-3557801540|
 
 ## Metrics
 
