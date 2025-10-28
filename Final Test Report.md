@@ -93,7 +93,7 @@
 | Test Case Design |  2 day | 12  day |  Completed|
 |  Test Execution | 1 day  | 1 day  | Completed |
 | Defect Reporting |1 day |  1 day | Completed | 
-|  Final Reporting	| 1 day | 1 day  | inprogress | 
+|  Final Reporting	| 1 day | 1 day  | Completed | 
 
 
 ## Risk Analysis
